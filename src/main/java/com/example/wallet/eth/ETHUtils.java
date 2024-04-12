@@ -1,7 +1,7 @@
 package com.example.wallet.eth;
 
-import com.example.wallet.core.WalletInitMethod;
-import com.example.wallet.core.WalletModule;
+import com.example.wallet.module.WalletInitMethod;
+import com.example.wallet.module.WalletModule;
 import com.example.wallet.core.contnat.Constants;
 import org.web3j.crypto.*;
 
@@ -85,35 +85,5 @@ public class ETHUtils {
         return module;
     }
 
-
-    public static void main(String[] args) {
-
-//        WalletModule aaa = createWalletByPrivateKey("d0c93603df986ae35546964a2865a697ff4c4447dd8118ea824e8a5b182b575f");
-//        System.out.println(JSONUtil.parse(aaa));
-
-//        String json = "{\"address\":\"0xab2d749ae5ceb1de1dfc41a7b875627982b8fcef\"," +
-//                "\"privateKey\":\"d0c93603df986ae35546964a2865a697ff4c4447dd8118ea824e8a5b182b575f\"," +
-//                "\"publicKey\":\"e418a7c41bd109fa3f04844bb661f16874a31dc1d41a3853c20088803adc6a0078f0de37fcf8fd330bad4507feec668417d99bc122730323bf7fcc17f4dc3144\"," +
-//                "\"mnemonic\":[\"torch\",\"sea\",\"brave\",\"toe\",\"wife\",\"season\",\"utility\",\"doctor\",\"general\",\"use\",\"credit\",\"gate\"],\"" +
-//                "keyStoreFileName\":\"UTC--2024-04-04T11-32-07.441000000Z--ab2d749ae5ceb1de1dfc41a7b875627982b8fcef.json\"}";
-//
-//        String aa = "torch sea brave toe wife season utility doctor general use credit gate";
-//        WalletModule walletByMnemonic = createWalletByMnemonic(aa);
-//        System.out.println(JSONUtil.parse(walletByMnemonic));
-//
-//        try {
-//            WalletModule walletByKeyStore = createWalletByKeyStore("123455", "I:/demo/wallet/wallet/keyStore/UTC--2024-04-04T11-32-07.441000000Z--ab2d749ae5ceb1de1dfc41a7b875627982b8fcef.json");
-//            System.out.println(JSONUtil.parse(walletByKeyStore));
-//        } catch (CipherException | IOException e) {
-//            throw new RuntimeException(e);
-//        }
-
-//        try {
-//            WalletModule wallet = createWallet();
-//            System.out.println(JSONUtil.parse(wallet));
-//        } catch (CipherException | IOException e) {
-//            throw new RuntimeException(e);
-//        }
-    }
 
 }
