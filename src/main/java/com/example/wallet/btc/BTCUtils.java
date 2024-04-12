@@ -1,7 +1,7 @@
 package com.example.wallet.btc;
 
-import com.example.wallet.core.WalletModule;
-import com.example.wallet.core.WalletInitMethod;
+import com.example.wallet.module.WalletModule;
+import com.example.wallet.module.WalletInitMethod;
 import org.bitcoinj.core.ECKey;
 import org.bitcoinj.core.NetworkParameters;
 import org.bitcoinj.crypto.MnemonicCode;

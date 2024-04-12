@@ -1,8 +1,8 @@
 package com.example.wallet;
 
 import cn.hutool.json.JSONUtil;
-import com.example.wallet.core.WalletInitMethod;
-import com.example.wallet.core.WalletModule;
+import com.example.wallet.module.WalletInitMethod;
+import com.example.wallet.module.WalletModule;
 import org.bitcoinj.core.ECKey;
 import org.bitcoinj.core.NetworkParameters;
 import org.bitcoinj.crypto.MnemonicCode;
